@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image8"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:layout_x="136dp"
+        android:layout_y="56dp"
+        android:text="Login Page"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/userIdText"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_x="101dp"
+        android:layout_y="275dp"
+        android:hint="Enter User ID"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_x="112dp"
+        android:layout_y="383dp"
+        android:hint="Enter Password"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_x="165dp"
+        android:layout_y="517dp"
+        android:text="Login" />
+
+</AbsoluteLayout>
